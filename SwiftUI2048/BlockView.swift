@@ -39,6 +39,7 @@ struct BlockData: Identifiable {
         case .south: if self.gridPosition.y == 3 { return true } else { return false }
         case .west: if self.gridPosition.x == 0 { return true } else { return false }
         case .east: if self.gridPosition.x == 3 { return true } else { return false }
+        case .none: return false
         }
     }
 }

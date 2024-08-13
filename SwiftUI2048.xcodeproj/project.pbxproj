@@ -11,6 +11,10 @@
 		958752622C69F41800F94E0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958752612C69F41800F94E0F /* ContentView.swift */; };
 		958752642C69F41900F94E0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958752632C69F41900F94E0F /* Assets.xcassets */; };
 		958752672C69F41900F94E0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958752662C69F41900F94E0F /* Preview Assets.xcassets */; };
+		958752732C69F4A500F94E0F /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9587526F2C69F4A500F94E0F /* BlockView.swift */; };
+		958752742C69F4A500F94E0F /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958752702C69F4A500F94E0F /* CellView.swift */; };
+		958752752C69F4A500F94E0F /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958752712C69F4A500F94E0F /* GridView.swift */; };
+		958752762C69F4A500F94E0F /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958752722C69F4A500F94E0F /* GameLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		958752612C69F41800F94E0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		958752632C69F41900F94E0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		958752662C69F41900F94E0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9587526F2C69F4A500F94E0F /* BlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
+		958752702C69F4A500F94E0F /* CellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		958752712C69F4A500F94E0F /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		958752722C69F4A500F94E0F /* GameLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,10 @@
 		9587525E2C69F41800F94E0F /* SwiftUI2048 */ = {
 			isa = PBXGroup;
 			children = (
+				9587526F2C69F4A500F94E0F /* BlockView.swift */,
+				958752702C69F4A500F94E0F /* CellView.swift */,
+				958752722C69F4A500F94E0F /* GameLogic.swift */,
+				958752712C69F4A500F94E0F /* GridView.swift */,
 				9587525F2C69F41800F94E0F /* SwiftUI2048App.swift */,
 				958752612C69F41800F94E0F /* ContentView.swift */,
 				958752632C69F41900F94E0F /* Assets.xcassets */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				958752762C69F4A500F94E0F /* GameLogic.swift in Sources */,
+				958752742C69F4A500F94E0F /* CellView.swift in Sources */,
 				958752622C69F41800F94E0F /* ContentView.swift in Sources */,
+				958752732C69F4A500F94E0F /* BlockView.swift in Sources */,
+				958752752C69F4A500F94E0F /* GridView.swift in Sources */,
 				958752602C69F41800F94E0F /* SwiftUI2048App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

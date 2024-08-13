@@ -8,9 +8,8 @@ import Foundation
 import SwiftUI
 
 struct GridView: View {
-//    @State var blocks: [BlockData] = []
     @State var cells: [CellPosition] = []
-    @State var data: GameData = GameData(blocks: [], score: 0, direction: .north)
+    @State var data: GameData = GameData(blocks: [], score: 0, direction: .none)
     
     let gridSize = 4
     let blockSize: CGFloat = 70
